@@ -54,6 +54,14 @@ install(TARGETS gnuradio-ldpc
     RUNTIME DESTINATION bin              # .dll file
 )
 
+install(FILES
+    alist.h
+    cldpc.h
+    gf2vec.h
+    gf2mat.h
+    DESTINATION include/ldpc
+)
+
 ########################################################################
 # Build and register unit test
 ########################################################################
