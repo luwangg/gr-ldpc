@@ -39,7 +39,9 @@
 #include "gf2mat.h"
 #include "alist.h"
 
-class cldpc
+
+#include <ldpc/api.h>
+class LDPC_API cldpc
 {
   public:
     //! Default constructor

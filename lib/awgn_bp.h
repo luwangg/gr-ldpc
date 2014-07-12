@@ -43,8 +43,9 @@
 #include <iostream>
 #include "gf2mat.h"
 #include "alist.h"
+#include <ldpc/api.h>
 
-class awgn_bp
+class LDPC_API awgn_bp
 {
   public:
     //! Default constructor

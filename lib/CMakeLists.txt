@@ -59,6 +59,7 @@ install(FILES
     cldpc.h
     gf2vec.h
     gf2mat.h
+    awgn_bp.h
     DESTINATION include/ldpc
 )
 

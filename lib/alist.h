@@ -41,8 +41,9 @@
 #include <sstream>
 #include <vector>
 #include <stdlib.h>
+#include <ldpc/api.h>
 
-class alist
+class LDPC_API alist
 {
   public:
 
